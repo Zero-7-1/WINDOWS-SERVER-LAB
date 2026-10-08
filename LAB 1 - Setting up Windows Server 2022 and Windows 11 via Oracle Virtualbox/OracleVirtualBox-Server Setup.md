@@ -8,7 +8,7 @@
 
 - Open Oracle VirtualBox. Click on 'New' Tab on hompage of VitualBox. Here we can select the location of VM which should be saved in separate drive from C so that it does not impact host OS slowness. Then we select the ISO image file. After this we can confirgure and assign hardware resources from host to VM **(Always choose to tick Skip Unattended Installation.)**.
 
-Here are snaps of VirtualBox setup with my Server 2022 and Windows 11 Pro configuration:
+- Here are snaps of VirtualBox setup with my Server 2022 and Windows 11 Pro configuration:
 
 ![VirtualBox NEW](./Images/Add%20New.png)
 
@@ -36,8 +36,8 @@ Here are snaps of VirtualBox setup with my Server 2022 and Windows 11 Pro config
 
 - While working on AD like adding roles and feature we need static IP and at the same time we need internet to work inside our VM from host network connection. To achieve this we set 2 Network Adapters for Windows Server VM.
 
-Adapter 1: NAT (Wll be confirgured for AD for Static IP need, Explained in LAB 2)
-Adapter 2: Internal (Will be used for network connectivity for VM from host)
+- Adapter 1: NAT (Wll be confirgured for AD for Static IP need, Explained in LAB 2)
+- Adapter 2: Internal (Will be used for network connectivity for VM from host)
 
 - For Client VM do not put NAT adpater, only one that is Internal.
 
