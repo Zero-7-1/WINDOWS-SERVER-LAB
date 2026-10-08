@@ -41,6 +41,6 @@ Adapter 2: Internal (Will be used for network connectivity for VM from host)
 
 - For Client VM do not put NAT adpater, only one that is Internal.
 
-[VirtualBox Network Config](./Images/Server%20VM%20network%20config.png)
+![VirtualBox Network Config](./Images/Server%20VM%20network%20config.png)
 
-[VirtualBox Network Config 2](./Images/Server%20VM%20network%20config%202.png)
+![VirtualBox Network Config 2](./Images/Server%20VM%20network%20config%202.png)
